@@ -37,8 +37,8 @@
     }
   },
   "variables": {
-    "vnetID" : "[resourceId('Core-Group','Microsoft.Network/virtualNetworks',parameters('vnetName'))]",
-	"subnetName" : "[concat(variables('vnetID'),'/subnets/','Tier-3')]",
+    "vnetID" : "[resourceId('EMJU-AZDV-Network','Microsoft.Network/virtualNetworks',parameters('vnetName'))]",
+	"subnetName" : "[concat(variables('vnetID'),'/subnets/','Data')]",
     "vmName": "[concat(parameters('namespace'), 'vm')]"
   },
   "resources": [

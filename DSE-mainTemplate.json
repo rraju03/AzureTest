@@ -112,8 +112,8 @@
     "opsCenterInstallTemplateUrl": "[concat(variables('templateBaseUrl'), parameters('opsCenterInstallTemplateFile'))]",
     "nodeList": "[concat(variables('clusterRange').base, variables('clusterRange').start, '-', parameters('clusterNodeCount'))]",
     "storageAccountName": "[variables('clusterName')]",
-    "vnetName": "Safeway-Dev-QA1",
-    "subnetName": "Tier-3",
+    "vnetName": "EMJU-VNet",
+    "subnetName": "Data",
     "clusterRange": {
       "base": "[parameters('clusterIPRangeBase')]",
       "start": "[parameters('clusterIPRangeStart')]"
