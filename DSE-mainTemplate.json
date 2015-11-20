@@ -15,7 +15,7 @@
       "type": "string",
       "defaultValue": "Standard_D12",
       "allowedValues": [
-		"Standard_D3"
+		"Standard_D3",
         "Standard_D12",
         "Standard_D13",
         "Standard_D14",
@@ -101,6 +101,7 @@
       "defaultValue": "test",
       "metadata": {
         "description": "Starting name of VMs"
+	  }
 	}
   },
   "variables": {
