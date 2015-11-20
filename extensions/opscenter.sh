@@ -224,7 +224,7 @@ sudo tee provision.json > /dev/null <<EOF
     "write_request_timeout_in_ms" : 2000,
     "range_request_timeout_in_ms" : 10000,
     "memtable_offheap_space_in_mb" : 2048,
-    "cluster_name" : "SafewayTest",
+    "cluster_name" : "rich1",
     "server_encryption_options" : {
       "keystore_password" : "cassandra",
       "algorithm" : "SunX509",
