@@ -115,7 +115,7 @@ echo "Getting node information"
 export NODE_INFORMATION_API=$(get_node_information "cassandra" "10.0.200.10-6" "1") # TODO: Get these args from external JSON
 
 echo "Getting node information"
-export NODE_INFORMATION_ANALYTICS=$(get_node_information "solr" "10.0.200.17-4" "1")  # TODO: Get these args from external JSON
+export NODE_INFORMATION_ANALYTICS=$(get_node_information "solr" "10.0.200.16-4" "1")  # TODO: Get these args from external JSON
 
 
 if [ $testing == 'true' ] ; then 
